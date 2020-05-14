@@ -1,0 +1,10 @@
+/* extra css */
+
+/* Temporary fix for incorrect page height calculation in resize.js
+ * (margin value of horizontal line is being ignored)
+ * This will most likely go away when the footer is updated.
+ * DD 13May2020
+ */
+div#nav-path > hr {
+  margin-top: 0px;
+}
